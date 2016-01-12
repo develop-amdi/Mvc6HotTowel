@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{572C2648-9AFA-4C69-BEEE-5F5E2E34E0F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1DB91217-9B06-47E7-8390-8D185C641D46}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Mvc6HotTowel", "src\Mvc6HotTowel\Mvc6HotTowel.xproj", "{C2AD5DCA-BE95-44F7-8774-EEDAC5AA7597}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2AD5DCA-BE95-44F7-8774-EEDAC5AA7597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2AD5DCA-BE95-44F7-8774-EEDAC5AA7597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2AD5DCA-BE95-44F7-8774-EEDAC5AA7597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2AD5DCA-BE95-44F7-8774-EEDAC5AA7597}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C2AD5DCA-BE95-44F7-8774-EEDAC5AA7597} = {572C2648-9AFA-4C69-BEEE-5F5E2E34E0F2}
+	EndGlobalSection
+EndGlobal
